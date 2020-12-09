@@ -46,7 +46,7 @@ module.exports = class Bots {
             SET name=$1,
                 sign=$2,
                 sweet=$3,
-                sassy=$4,
+                sassy=$4
             WHERE id=$5
             RETURNING *
             `,
